@@ -1,0 +1,63 @@
+.main{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10% 25% ;
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#todo{
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+}
+
+#inputField{
+    width: 100%;
+    margin: 10px 0px;
+    display: inline-block;
+    padding: 0px 0px 0px 40px ;
+}
+
+#add{
+    width: 5rem;
+    border-radius: 6px ;
+    border: 1px solid black;
+}
+
+.check > label{
+    text-decoration: line-through;
+}
+
+.item{
+    margin: 0px 5px;
+    width: 75.5%;
+}
+
+.delete{
+    margin: 0px 0px 0px 0px;
+    width: 5rem;
+    border-radius: 6px ;
+    border: 1px solid black;
+}
+
+.textInput{
+    border: none;
+    border-bottom: 2px solid green;
+    width: 78.5%;
+}
+
+.textInput:focus{
+    outline: none;
+    border-bottom: 2px solid skyblue;
+}
+
+.list{
+    padding: 7px 0px;
+}
